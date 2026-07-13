@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
 import HomePage from './pages/homePage.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './styles/index.css'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>

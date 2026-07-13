@@ -1,10 +1,10 @@
 import HeaderComponent from "../components/headerComponent.tsx"
-import "../styles/pages/homePage.css"
 
 function HomePage() {
     return (
-        <div>
+        <div className="flex flex-col min-h-screen">
             <HeaderComponent />
+            <h1>Home</h1>
         </div>
     )
 }
