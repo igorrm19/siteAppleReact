@@ -9,11 +9,9 @@ function Header() {
         <header className="flex w-screen h-[10vh]">
             <nav className="flex justify-between items-center w-full h-full">
                 <ul className="flex w-full justify-center items-center h-14">
-                    <li className="list">
-                        <Link to="/home">
-                            <img src={logoApple} alt="logo" className="cursor-pointer" />
-                        </Link>
-                    </li>
+                    <Link to="/home">
+                        <img src={logoApple} alt="logo" className="cursor-pointer" />
+                    </Link>
                     <li className="list">
                         <a href="#">
                             <h1 className="text-2xl cursor-pointer">Store</h1>
@@ -22,6 +20,11 @@ function Header() {
                     <li className="list">
                         <a href="#">
                             <h1 className="text-2xl cursor-pointer">Mac</h1>
+                        </a>
+                    </li>
+                    <li className="list">
+                        <a href="#">
+                            <h1 className="text-2xl cursor-pointer">Ipad</h1>
                         </a>
                     </li>
                     <li className="list">
