@@ -7,13 +7,30 @@
 }
 
 :root {
-    --color-bg-primary-black: #1d1d1f;
+    --color-bg-primary-black: #000000;
     --color-text-primary-white: #ffffff;
+
+    --font-family-main: 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-secondary: 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    --font-size-small: 12px;
+    --font-size-medium: 16px;
+    --font-size-large: 20px;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --letter-spacing: -0.01em;
 }
 
 html,
 body {
     background-color: var(--color-bg-primary-black);
+    font-family: var(--font-main);
+    -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -23,4 +40,13 @@ h4,
 h5,
 h6 {
     color: var(--color-text-primary-white);
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: var(--letter-spacing);
+}
+
+a {
+    color: var(--color-text-primary-white);
+    text-decoration: none;
 }

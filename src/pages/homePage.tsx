@@ -4,7 +4,6 @@ function HomePage() {
     return (
         <div className="flex flex-col min-h-screen">
             <HeaderComponent />
-            <h1>Home</h1>
         </div>
     )
 }
