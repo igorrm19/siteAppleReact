@@ -50,3 +50,7 @@ a {
     color: var(--color-text-primary-white);
     text-decoration: none;
 }
+
+li {
+    list-style-type: none;
+}
