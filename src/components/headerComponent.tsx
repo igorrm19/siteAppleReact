@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <header className="flex w-screen h-[10vh]">
+        <header className="flex w-screen h-[10vh] sticky top-0">
             <nav className="flex justify-between items-center w-full h-full">
                 <ul className="flex w-full justify-center items-center h-14">
                     <Link to="/home">
