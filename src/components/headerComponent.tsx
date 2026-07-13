@@ -2,6 +2,7 @@ import logoApple from "../assets/logoApple.svg";
 import search from "../assets/search.svg";
 import bag from "../assets/bag.svg";
 import "../styles/pages/homePage.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -9,7 +10,9 @@ function Header() {
             <nav className="flex justify-between items-center w-full h-full">
                 <ul className="flex w-full justify-center items-center h-14">
                     <li className="list">
-                        <img src={logoApple} alt="logo" className="cursor-pointer" />
+                        <Link to="/home">
+                            <img src={logoApple} alt="logo" className="cursor-pointer" />
+                        </Link>
                     </li>
                     <li className="list">
                         <a href="#">
