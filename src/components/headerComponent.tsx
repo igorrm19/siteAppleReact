@@ -13,58 +13,58 @@ function Header() {
                         <img src={logoApple} alt="logo" className="cursor-pointer" />
                     </Link>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Store</h1>
+                        <a href="/store">
+                            <span className="text-2xl cursor-pointer">Store</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Mac</h1>
+                        <a href="/mac">
+                            <span className="text-2xl cursor-pointer">Mac</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Ipad</h1>
+                        <a href="/ipad">
+                            <span className="text-2xl cursor-pointer">Ipad</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Ipad</h1>
+                        <a href="/iphone">
+                            <span className="text-2xl cursor-pointer">Iphone</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Iphone</h1>
+                        <a href="/watch">
+                            <span className="text-2xl cursor-pointer">Iphone</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Watch</h1>
+                        <a href="/airpods">
+                            <span className="text-2xl cursor-pointer">Airpods</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Airpods</h1>
+                        <a href="/tv">
+                            <span className="text-2xl cursor-pointer">TV & Home</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">TV & Home</h1>
+                        <a href="/entertainment">
+                            <span className="text-2xl cursor-pointer">TV & Home</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Entertainment</h1>
+                        <a href="/accessories">
+                            <span className="text-2xl cursor-pointer">Entertainment</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Accessories</h1>
+                        <a href="/support">
+                            <span className="text-2xl cursor-pointer">Accessories</span>
                         </a>
                     </li>
                     <li className="list">
-                        <a href="#">
-                            <h1 className="text-2xl cursor-pointer">Support</h1>
+                        <a href="/search">
+                            <span className="text-2xl cursor-pointer">Support</span>
                         </a>
                     </li>
                     <li className="list">
