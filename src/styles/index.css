@@ -47,7 +47,7 @@
         letter-spacing: var(--letter-spacing);
     }
 
-    h1:hover {
+    span:hover {
         color: rgb(182, 179, 179);
         transition-property: all;
         transition-duration: 500ms;

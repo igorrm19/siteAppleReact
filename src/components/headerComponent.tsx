@@ -10,7 +10,7 @@ function Header() {
             <nav className="flex justify-between items-center w-full h-full">
                 <ul className="flex w-full justify-center items-center h-14">
                     <Link to="/home">
-                        <img src={logoApple} alt="logo" className="cursor-pointer" />
+                        <img src={logoApple} alt="logo" className="cursor-pointer icon" height={20} width={20} />
                     </Link>
                     <li className="list">
                         <a href="/store">
@@ -48,11 +48,6 @@ function Header() {
                         </a>
                     </li>
                     <li className="list">
-                        <a href="/entertainment">
-                            <span className="text-2xl cursor-pointer">TV & Home</span>
-                        </a>
-                    </li>
-                    <li className="list">
                         <a href="/accessories">
                             <span className="text-2xl cursor-pointer">Entertainment</span>
                         </a>
@@ -68,10 +63,10 @@ function Header() {
                         </a>
                     </li>
                     <li className="list">
-                        <img src={search} alt="search" className="cursor-pointer" />
+                        <img src={search} alt="search" className="cursor-pointer icon" height={20} width={20} />
                     </li>
                     <li className="list">
-                        <img src={bag} alt="bag" className="cursor-pointer" />
+                        <img src={bag} alt="bag" className="cursor-pointer icon" height={20} width={20} />
                     </li>
                 </ul>
             </nav>
