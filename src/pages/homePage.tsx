@@ -1,4 +1,5 @@
 import HeaderComponent from "../components/headerComponent.tsx"
+import heroImage from "../../public/figure.png"
 
 function HomePage() {
     return (
@@ -6,8 +7,18 @@ function HomePage() {
             <HeaderComponent />
             <main className="flex flex-col items-center justify-center w-full h-full">
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <h1>Iphone 16</h1>
-                    <p>O futuro em suas mãos</p>
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="flex flex-col justify-center items-center">
+                            <h1 className="text-5xl mb-3">Apple Shopping Event</h1>
+                            <h2 className="text-3xl text-center leading-10" style={{ color: "#6E6E73" }}>From November 25 to 28, get an Apple Gift <br /> Card when you buy an eligible product.1</h2>
+                        </div>
+                        <div className="flex flex-col items-center justify-center mt-5">
+                            <img src={heroImage} alt="Apple Shopping Event" className="w-full h-[600px]" />
+                        </div>
+                    </div>
+                    <div className="flex">
+                        <p className="text-2xl">O futuro em suas mãos</p>
+                    </div>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
                     <h1>Iphone 16</h1>
