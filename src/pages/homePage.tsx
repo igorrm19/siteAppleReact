@@ -1,5 +1,6 @@
 import HeaderComponent from "../components/headerComponent.tsx"
 import heroImage from "../../public/figure.png"
+import imageFundo from "../../public/div (1).svg"
 
 function HomePage() {
     return (
@@ -17,28 +18,24 @@ function HomePage() {
                             <img src={heroImage} alt="Apple Shopping Event" className="w-full h-[600px] hero-image" />
                         </div>
                     </div>
-                    <div className="flex">
-                        <p className="text-2xl">O futuro em suas mãos</p>
-                    </div>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-5xl font-medium">Iphone 16</span>
+                    <img src={imageFundo} alt="" className="w-full h-screen" />
+                </section>
+                <section className="w-screen h-screen flex flex-col items-center justify-center bg-white">
+                    <span className="text-2xl font-medium">Iphone 16</span>
                     <p>O futuro em suas mãos</p>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-5xl font-medium">Iphone 16</span>
+                    <span className="text-2xl font-medium">Iphone 16</span>
                     <p>O futuro em suas mãos</p>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-5xl font-medium">Iphone 16</span>
+                    <span className="text-2xl font-medium">Iphone 16</span>
                     <p>O futuro em suas mãos</p>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-5xl font-medium">Iphone 16</span>
-                    <p>O futuro em suas mãos</p>
-                </section>
-                <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-5xl font-medium">Iphone 16</span>
+                    <span className="text-2xl font-medium">Iphone 16</span>
                     <p>O futuro em suas mãos</p>
                 </section>
             </main>

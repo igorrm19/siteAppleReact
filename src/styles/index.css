@@ -39,7 +39,9 @@
     h3,
     h4,
     h5,
-    h6 {
+    h6,
+    span,
+    p {
         color: var(--color-text-primary-white);
         font-family: var(--font-family-main);
         font-size: var(--font-size-medium);
