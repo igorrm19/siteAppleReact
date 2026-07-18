@@ -2,6 +2,7 @@ import HeaderComponent from "../components/headerComponent.tsx"
 import heroImage from "../../public/figure.png"
 import imageFundo from "../../public/div (1).svg"
 import iPhone from "../../public/figure.svg"
+import { Link } from "react-router-dom"
 
 function HomePage() {
     return (
@@ -27,15 +28,31 @@ function HomePage() {
                     <div className="flex flex-col items-center justify-center">
                         <h1 className="font-bold text-6xl" style={{ color: "#1D1D1F" }}>iPhone 14</h1>
                         <h3 className="font-medium text-3xl" style={{ color: "#1D1D1F" }}>Big and bigger.</h3>
-                        <p className="text-blue-600 font-medium text-2xl cursor-pointer mt-5">Saber mais</p>
+                        <Link to="/iphone-14">
+                            <p className="text-blue-600 font-medium text-2xl cursor-pointer mt-5">Saber mais</p>
+                        </Link>
                     </div>
                     <div>
                         <img src={iPhone} alt="iPhone 14" />
                     </div>
                 </section>
-                <section className="w-screen h-screen flex flex-col items-center justify-center">
-                    <span className="text-2xl font-medium">Iphone 16</span>
-                    <p>O futuro em suas mãos</p>
+                <section className="w-screen h-screen flex flex-col items-center justify-center px-10 py-10 ">
+                    <div className="grid grid-cols-2 w-full h-1/2">
+                        <div className="flex flex-col items-center justify-center">
+                            <p>1</p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center">
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-2 w-full h-1/2">
+                        <div className="flex flex-col items-center justify-center">
+                            <p>3</p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center">
+                            <p>4</p>
+                        </div>
+                    </div>
                 </section>
                 <section className="w-screen h-screen flex flex-col items-center justify-center">
                     <span className="text-2xl font-medium">Iphone 16</span>
